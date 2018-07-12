@@ -1,0 +1,284 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #6ec7c5!important;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: #064d79!important;
+  min-height: 6vw!important;
+  margin-bottom: 1vw;
+}
+.navbar-brand {
+  color: #fff!important;
+  padding: 1vw 2vw;
+}
+.navbar-brand .logo {
+  width:14vw;
+  margin-left: 4vw;
+}
+.navbar-brand .bobby {
+  width:3vw;
+  float:left;
+}
+body p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.first-row {
+  padding: 0 2vw;
+}
+.side-menu, .top-right-label {
+    background-color: #064d79;
+    border-color: #e7e7e7;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+}
+.side-menu {
+    width: 85%;
+}
+.side-menu-head-img img {
+  width: 10.5vw;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: .5vw 0 2vw;
+}
+.side-menu-head-diddeos .diddeos-button {
+    background-image: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/Asset_52.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+    display: block;
+    background-size: 8vw;
+    padding: 3vw;
+    margin: 0 0 2vw;
+}
+.side-menu-head-games .game-button {
+    background-image: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/Asset_51.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+    display: block;
+    background-size: 6vw;
+    padding: 3vw;
+    margin: 0 0 2vw;
+}
+h3.toons, h3.games, h3.diddeos {
+    font: 1em Calibri;
+    color: #e7e7e7;
+    padding-left: 2vw;
+    margin:0;
+}
+.side-menu-head-toons .toon-button {
+    background-image: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/toons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+    display: block;
+    background-size: 8vw;
+    padding: 3vw;
+    margin: 0 0 2vw;
+}
+.center.col-xs-8.video {
+  background-image: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/videobg.png);
+    background-repeat: no-repeat;
+    background-position: 8vw -1vw;
+    background-size: 47vw 31vw;
+}
+.row .center.col-xs-8 #myVideo {
+  margin-top: 4vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-bottom: 7vw;
+}
+.row .center.col-xs-8 .video-js[tabindex="-1"] {
+    margin: auto;
+    width: 32vw;
+    float:left;
+}
+.leftside {
+}
+.topleft-img {width:25vw;}
+
+img.chars {width: 8vw;
+    height: auto;
+    padding: 2vw 0;}
+.video-js{
+  background-color:transparent!important;
+  height: 25vw;
+}
+.video-js .vjs-tech {
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+button:focus {outline:0;}
+.playBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/play.png) no-repeat;
+}
+.playBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/play_hover.png) no-repeat;
+}
+.pauseBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/pause.png) no-repeat;
+}
+.pauseBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/pause_hover.png) no-repeat;
+}
+.loopBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/loop.png) no-repeat;
+}
+.loopBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/loop_hover.png) no-repeat;
+}
+.speedBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/speed.png) no-repeat;
+}
+.speedBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/speed_hover.png) no-repeat;
+}
+.muteBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/mute.png) no-repeat;
+}
+.muteBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/mute_hover.png) no-repeat;
+}
+.musicBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/music.png) no-repeat;
+}
+.musicBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/music_hover.png) no-repeat;
+}
+.speechBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/speech.png) no-repeat;
+}
+.speechBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/speech_hover.png) no-repeat;
+}
+.aslBtn {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/asl.png) no-repeat;
+}
+.aslBtn:hover {
+  background:url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/asl_hover.png) no-repeat;
+}
+.playBtn, .pauseBtn, .loopBtn, .speedBtn, .muteBtn, .playBtn:hover, .pauseBtn:hover, .loopBtn:hover, .speedBtn:hover, .muteBtn:hover {
+    background-size: 6vw 5vw;
+    cursor: pointer;
+    width: 7vw;
+    height: 5vw;
+    border: none;
+    float: left;
+    clear: left;
+    display: block;
+    margin-left: 8vw;
+    margin-top: 3vw;
+    border:none;
+    color: white;
+}
+.musicBtn, .speechBtn, .aslBtn, .musicBtn:hover, .speechBtn:hover, .aslBtn:hover {
+    background-size: 6vw 5vw;
+    cursor: pointer;
+    width: 7vw;
+    height: 5vw;
+    border: none;
+    float: left;
+    clear: left;
+    display: block;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    border:none;
+    color: white;
+}
+.speedBtn {
+  padding-top: 4.5vw;
+}
+#app > div > div > div.row.first-row > div.center.col-xs-8.video > section:first-child {
+  margin-top: 2.7vw;
+}
+.loopBtn {
+    margin-top: -8vw;
+    margin-left: 13vw;
+}
+.leftBtns, .rightBtns {
+  float: left;
+}
+.caption-box {
+  cursor: pointer;
+  display: block;
+  clear: both;
+    background: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/words.png) no-repeat;
+    background-position: 11.5vw 3vw;
+    background-size: 40vw 12vw;
+    min-height: 17vw;
+    padding: 3vw 11vw;
+  h1 {
+    em {
+      color: #fcb984;
+    }
+    em.muted {
+      color: red;
+    }
+    color: white;
+    font-size: 1.5em;
+    margin-left: 2.5vw;
+  }
+}
+#app > div > div > div.row.first-row > div.center.col-xs-8.video > section > svg {
+  margin: .2vw 11.2vw;
+}
+.slider-bg {
+  stroke: white;
+  stroke-width: 2;
+  fill: rgba(222,222,222,1);
+}
+.slider-fg {
+  stroke: white;
+  stroke-width: 2;
+  fill: #38c3c8;
+}
+.sliderbar {
+    margin-top: -6.8vw;
+    margin-left: 19vw;
+    clear: left;
+    float: left;
+    position: relative;
+}
+.col-xs-2 .playlist {
+    background: url(https://s3-us-west-1.amazonaws.com/los-extremos/doowah/playlist_bg.png) no-repeat;
+    background-position: center;
+    background-size: 12vw 20vw;
+    min-height: 20vw;
+    margin-top: 1vw;
+}
+h3.tracks {
+    font: 1.2em Calibri;
+    color: #e7e7e7;
+    padding: 1vw;
+    text-align: center;
+    margin: 0;
+}
+.track {
+  width: auto;
+    height: 5vw;
+    margin: 3vw 3vw 0;
+}
+
+/* fix for 'cannot find file' error */
+$bootstrap-sass-asset-helper: true;
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
